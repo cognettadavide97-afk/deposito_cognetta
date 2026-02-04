@@ -1,3 +1,4 @@
+nome = "Davide"
 print(1+5)
 #prova concatenazione stringhe
 "ciao" + nome + "ho 2 anni"

@@ -1,0 +1,34 @@
+Mostra i 10 film più lunghi presenti nel database, ordinandoli dal più lungo al più corto.
+
+Qual è il prezzo medio di noleggio (rental_rate) di tutti i film? Rinomina il risultato come "Prezzo_Medio_Noleggio".
+
+Nella tabella film, conta quanti film ci sono per ogni durata di noleggio (rental_duration).
+
+Vai nella tabella payment e conta quanti pagamenti ha registrato ogni staff_id.
+
+Per ogni customer_id nella tabella payment, mostra il pagamento più alto (MAX) e quello più basso (MIN) che abbiano mai effettuato.
+
+-- Mostra i 10 film più lunghi presenti nel database, ordinandoli dal più lungo al più corto.
+SELECT title, film_id, length FROM film ORDER BY length DESC;
+
+-- Qual è il prezzo medio di noleggio (rental_rate) di tutti i film?
+-- Rinomina il risultato come "Prezzo_Medio_Noleggio".
+SELECT AVG(rental_rate) AS Prezzo_Medio_Noleggio FROM film;
+
+-- Nella tabella film, conta quanti film ci sono per ogni durata di noleggio (rental_duration).
+SELECT rental_duration, COUNT(film_id) FROM film GROUP BY rental_duration;
+
+-- Vai nella tabella payment e conta quanti pagamenti ha registrato ogni staff_id.
+SELECT staff_id, COUNT(payment_id) FROM payment GROUP BY staff_id;
+
+-- Per ogni customer_id nella tabella payment, mostra il pagamento più alto (MAX) e quello più basso (MIN) che abbiano mai effettuato.
+SELECT customer_id, MAX(amount), MIN(amount) FROM payment GROUP BY customer_id;
+
+[Personificazione]: Sei un esperto web developer e designer
+
+[Richiesta]:Fai un piccolo sito web single page per vendere delle scarpe
+
+[Contesto]:E' per un artigiano che crea a mano le scarpe e le vende
+
+[Formato]:Usa html css e js
+
