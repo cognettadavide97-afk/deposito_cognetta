@@ -24,4 +24,30 @@ elif operatore == "divisione":
 else: #chiusura del blocco if-elif-else
     print("operazione non valida")
             
-    
+#esercizio 2 prof (utilizzo match)
+num1 = int(input("Inserisci primo numero: "))
+num2 = int(input("Inserisci secondo numero: "))
+operazione = input("Inserisci operazione (+ - * /): ")
+
+match operazione:
+    case "+":
+        risultato = num1 + num2
+        print(risultato)
+
+    case "-":
+        risultato = num1 - num2
+        print(risultato)
+
+    case "*":
+        risultato = num1 * num2
+        print(risultato)
+
+    case "/":
+        if num2 == 0:
+            print("Errore: Divisione per zero")
+        else:
+            risultato = num1 / num2
+            print(risultato)
+
+    case _:
+        print("Operazione non valida")
