@@ -1,0 +1,25 @@
+eccezione conosciute
+
+numeri[7]
+print(numeri[7])
+
+ numeri[7]
+    ~~~~~~^^^
+IndexError: list index out of range
+
+numero fuori dal range della lista, ritornare ad un numero che sia incluso nella lista (in questo caso la lista ha 1 valore, quindi numero 0, da 1 in poi è errore)
+
+punto = (3, 4)
+punto[0] = 5
+
+  punto[0] = 5
+    ~~~~~^^^
+TypeError: 'tuple' object does not support item assignment
+
+File "<stdin>", line 1, in <module>
+    limite = int(input("scegli il limite massimo da raggiungere"))
+ValueError: invalid literal for int() with base 10: 'for p in range (23):'
+>>>     print(p)
+  File "<stdin>", line 1
+    print(p)
+IndentationError: unexpected indent
