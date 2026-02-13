@@ -1,0 +1,81 @@
+una classe è un metodo di astrazione per gli oggetti reali, cioè l'idea che definisce oggetti reali. Il suo blueprint.
+il tipo di un oggetto è definito dalla sua classe, se ho la classe automobile, l'oggetto sarà di tipo automobile
+l'attributo di un oggetto è dato dagli attributi presenti nella classe, a cui noi assegniamo un valore
+
+un attributo è una caratteristica o proprietà (una variabile) che descrive l'oggetto
+
+il metodo è una funziona associata alla classe, che descrive il comportamento che un oggetto presente nella classe possiede
+
+l'istanza(oggetto) è la realizzazione concreta della classe
+
+funzioni: cosa sono
+sono blocchi di codici che gestiscono dei valori in modo separato e che noi richiamiamo ogniqualvolta ne abbiamo bisogno
+una funzione si definisce da 3 parametri fondamentali, di cui uno è def, nome e parametri
+quando inserisci un valore reale, diventa argomento
+esistono due tipi funzioni, una di ritorno e una non.
+quella di ritorno restituisce la funzione quando la chiamiamo con il comando "return"
+ci sono diversi tipi di parametri, quelli posizionali, le keyword e quelli di default
+
+I generatori sono una classe di funzioni che permettonon di iterare su una serie di valori ma restituiscono tali valori
+solo una alla volta e utilizzano come keyword yeald
+yieald restituisce un valore
+
+decoratori sono delle funzioni create per impacchettarne altre e estendere le applicazioni delle funzioni senza dover modificare
+il codice originario della funzione. Questo permette di essere più versatili ed evitare di apporre modifiche innopportune
+
+MODULI
+
+qual è l'obiettivo di questo codice? possiamo usare quella logica isolandola
+sostanzialmente i moduli servono ad isolare pezzi che fanno qualcosa di specifico che posso richiamare quando voglio
+o testare se funziona
+
+in python l'obiettivo non è dividere il più possibile ma suddividere nelle parti necessarie per avere un minimo di controllo e gestione
+quando sappiamo come gestire il file è fatta, usiamo cosi il codice.
+non c'è nessuna necessità di andare ad avere 10000 logiche per fare la stessa cosa
+
+tramite il nome del modulo posso richiamare tutte le sue funzioni
+
+--------------------------------------------------------------------------------------------------------
+
+LE TRE REGOLE DELL'OOP
+
+3+1 CONCETTI FONDAMENTALI
+Ereditarietà, Incapsulamento, Polimorfismo (di pari importanza)
+se manca una di loro le altre crollano
++1 FONDATIVA (BASILARE)
+se rimuovo l'astrazione le altre 3 regole non possono più funzionare CONTEMPORANEAMENTE 
+l'Astrazione è la regola BASE di tutti i linguaggi di programmazione moderni OOP
+
+L'ereditarietà è quella più manipolabile dal programmatore 75-25
+incapsulamento 50-50 (implicito e 50 aggiungere o no)
+polimorfismo (75-25, esagerando, in mano all'utente)
+
+le 3 regole collaborano SEMPRE tra di loro
+
+Incapsulamento
+la capacità di difendere gli elementi interni (di classe, funzione, variabili etc.) a livello di SICUREZZA DEL CODICE
+lavoriamo con le giuste norme alla base per far funzionare tutto il resto
+
+Ereditarietà
+La capacità di una classe di poter ereditare da altre classi (chiamata padre) che può ereditare metodi e attributi
+è una caratteristica UNICA di python e si chiama multiereditarietà. Inoltre una classe può avere infiniti padri (cioè
+può avere infiniti attributi o moduli ereditari) e vale IL VICEVERSA (infiniti figli)
+uno dei motivi basilari per cui python è molto utile per il machine learning/IA
+
+l'ereditarietà la vediamo in 3 cose: metodo attivo/passivo e una capacità. Una classe padre si chiama superclasse o padre. 
+Figlio si dice sottoclasse o figlio
+ogni classe figlio può ereditare attributi e metodi.
+3 modi per utilizzare l'er. attivamente/pratici: super permette di richiamare metodi o costruttori esattamente come è scritta
+nella classe padre (con super.x la chiamiamo esattamente il metodo del padre)
+LA SOVRASCRITTURA: sovrascriviamo i metodi del padre (padre "saluta") noi lo riscriviamo e invece di def saluta="ciao" lo riscriviamo
+come ="hello". Riscrivamo il metodo
+L'EREDITARIETà MULTIPLA non è attiva nè passiva ma tipica di Python. Ogni padre può avere inf figli e ogni figli può avere inf padri
+
+
+
+Polimorfismo
+il polimorfismo è la capacità di cambiare forma e/o comportamento ad un elemento senza cambiarne il tipo
+Ingegneristicamente
+
+
+

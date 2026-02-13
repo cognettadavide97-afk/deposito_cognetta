@@ -15,7 +15,7 @@ prezzo_giochi = (9.99, 59.99, 39.99, 59.99, 59.99, 69.99)
 
 # 2. CICLO DI ACQUISTO (IL NEGOZIO)
 while True:
-    print("\n--- 🎮 GAME SHOP (Versione Sicura) ---")
+    print("\n--- 🎮 GAME SHOP ---")
     for i in range(len(catalogo_giochi)):
         print(f"{i + 1}. {catalogo_giochi[i]} - {prezzo_giochi[i]:.2f}€")
 
