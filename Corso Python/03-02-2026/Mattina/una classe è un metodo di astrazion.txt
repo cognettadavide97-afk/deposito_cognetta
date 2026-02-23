@@ -1,12 +1,23 @@
 una classe è un metodo di astrazione per gli oggetti reali, cioè l'idea che definisce oggetti reali. Il suo blueprint.
 il tipo di un oggetto è definito dalla sua classe, se ho la classe automobile, l'oggetto sarà di tipo automobile
-l'attributo di un oggetto è dato dagli attributi presenti nella classe, a cui noi assegniamo un valore
+l'attributo di un oggetto è dato dalle variabili presenti nella classe, a cui noi assegniamo un valore
+
+una classe può contenere al suo interno altre classi
 
 un attributo è una caratteristica o proprietà (una variabile) che descrive l'oggetto
 
 il metodo è una funziona associata alla classe, che descrive il comportamento che un oggetto presente nella classe possiede
 
 l'istanza(oggetto) è la realizzazione concreta della classe
+
+ci sono due metodi speciali nelle classi: __init__ il metodo costruttore, cioè le fondamenta della classe su cui creiamo gli oggetti 
+a cui diamo attributi e valori iniziali. Accetta sempre almeno un parametro: il self
+il secondo è __str__ che fornisce la rappresentazione in stringa di un oggetto, importante per la lettura 
+
+un metodo che è dentro la classe che non utilizza i dati dell'oggetto e utilizza i dati della classe. Legato alla classe ma non lavora
+su oggetto né alla classe
+
+metodo di istanza è nella classe ma lavora sull'oggetto. 
 
 funzioni: cosa sono
 sono blocchi di codici che gestiscono dei valori in modo separato e che noi richiamiamo ogniqualvolta ne abbiamo bisogno
@@ -78,4 +89,35 @@ il polimorfismo è la capacità di cambiare forma e/o comportamento ad un elemen
 Ingegneristicamente
 
 
+INCAPSULAMENTO:
 
+2 Modi per usare l'incapsulamento:
+
+Attributi privati: riponenedo 2 underscore a nome rende l'attributo privato e NON viene ereditata (salvo modi speciali).
+Non può essere richiamato o riutilizzato da altre classi
+
+2 NUOVI METODI: Getter e Setter (metodi di istanza)
+__get__ e __set__ servono a riportare o stampare un valore
+private è un concetto tecnico
+il protetto è visibile dai figli, serve a creare la classe base
+il padre sono protetti, nei figli li facciamo diventare privati
+dal padre al figlio posso aumentare la protezione e non il contrario (regola logica non linguistica)
+cosniglio "quando facciamo gli utenti" facciamo un private vuoto e un metodo registrazione e gli assegni le variabili direttamente 
+protette
+
+
+getter e setter (getter nome e setter nome):
+su tutti i parametri che devono essere esposti getter e setter
+per i parametri che non vanno esposti solo setter (PASS, chiave id, conto bancario etc)
+
+SCOPE DELLE VARIABILI
+globale: una variabile globale è  lo vede solo la classe e solo le funziono
+si può forzare. es x=10 vale ovunque a meno che non faccio
+nella realtà dei fatti globale e locale sono semi inutili.
+non locale possiamo forzarlo ma sono elementi passivi
+
+locale
+
+dove lo scrivo determina lo scope (passivo)
+
+nota: non c'entra niente con privato e protetto (un protetto può essere globale)

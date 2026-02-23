@@ -1,0 +1,33 @@
+ES COMPLESSIVO – Esercizio di TEST – Gestionale per l’Ingresso a Lavoro (OOP completo)
+
+In una cartella specifica della tua repository (ad esempio: /progetti/OOP_GestionaleIngressoLavoro), realizza insieme al tuo gruppo un gestionale per l’ingresso a lavoro (accesso dipendenti, badge, turni, ecc.) utilizzando la programmazione ad oggetti.
+
+Obiettivo generale:
+Progettare e implementare un piccolo sistema software che gestisca la logica di ingresso in azienda (ad esempio persone, ruoli, badge, turni, controlli di accesso, log di entrata/uscita, ecc.), usando in modo evidente tutte e quattro le regole principali dell’OOP:
+
+    Astrazione
+
+    Ereditarietà
+
+    Incapsulamento
+
+    Polimorfismo
+
+Il progetto dovrà:
+
+    essere organizzato nella cartella indicata all’interno della vostra repository,
+
+    contenere più file e/o moduli coerenti con l’idea di “gestionale per l’ingresso a lavoro”,
+
+    mostrare chiaramente, nel codice e nella struttura, dove e come vengono applicate le quattro regole OOP.
+
+Non ci sono altre specifiche obbligatorie: siete voi a dover definire quali oggetti esistono, come interagiscono, quali responsabilità hanno e come dimostrare in modo chiaro l’uso di astrazione, ereditarietà, incapsulamento e polimorfismo.
+
+Ti serve aiuto per iniziare a progettare la struttura delle classi o per vedere un esempio di come applicare i quattro pilastri a questo caso specifico?
+
+
+/OOP_GestionaleIngressoLavoro
+│
+├── models.py       # Le fondamenta: Chi sono gli attori? (Astrazione/Ereditarietà)
+├── services.py     # Il cervello: Come interagiscono? (Incapsulamento)
+└── main.py         # Il palcoscenico: Esecuzione del test (Polimorfismo)

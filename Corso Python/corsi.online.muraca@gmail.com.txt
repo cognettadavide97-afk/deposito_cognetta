@@ -1,0 +1,59 @@
+corsi.online.muraca@gmail.com
+
+RECAP:
+funzione print()
+funzione "principale" in Python che ci permette di restituire in output un argomento
+può avere infiniti argomenti
+
+type() ci da il tipo di variabile che non conosciamo
+
+non si possono usare caratteri speciali oltre _ quando si tratta di variabili. Numeri non come primo valore
+si possono creare più varibili sulla stessa riga es nome, cognome = "davide", "cognetta"
+
+\ - \ mi permette di dire a python di non considerare i caratteri che gli sono affiancati. Fondamentale perché per dati complessi permette di nascondere i caratteri speciali
+
+\n newline -> serve ad andare a capo
+
+commenti: servono per documentare il nostro codice. # o ' ', '' '', ''' '''
+
+Stringhe -> elenchi di caratteri racchiusi interno ai doppio apici
+
+interi -> numeri senza virgola
+
+float -> numeri con virgola (punto). si può usare il numero scientifico con una "e" per valori grandi dopo la virgola per indicare una potenza di 10
+
+operazioni vari -> +- /, * e **. // tronca la parte decimale. % restituisce il resto della divisione (modulo), utile per conversioni tra minuti ore etc, in generale cambi di scala
+
+CICLO While
+
+LISTE
+le liste non hanno memoria del loro interno
+
+ANALISI DATI E DIZIONARI IN PYTHON
+
+
+FUNZIONI
+Salviamo uno script non dei dati
+
+per creare una funzione partiamo dalla definizione (parola chiave: def)
+se si vuole impostare solo un valore come opzionale, si deve iniziare dal secondo
+
+l'unico modo per restituire il valore dentro una funziona è con il return
+
+IMPARARE A GESTIRE GLI ERRORI: 
+COSTRUTTO SPECIFICO TRY
+
+CSV FORMATO SCAMBI SU WEB (E' ANCHE TESTUALE)
+la struttura lo permette di essere letto da tanti linguaggi di programmazione che app come Excel perché è tabellare come struttura
+
+le colonne sono separate da virgola
+
+quando usate un gestionale di magazzino, per esempio (ma anche un db da analizzare o interrogazione AI), molte volte restituiscono csv, che è molto leggero ma può archiviare dati in maniera strutturata. La conversione in tabella è dovuta al fatto che è una struttura standard quindi app come Excel la "traducono" nel loro linguaggio
+
+filter ha bisogno di una funzione che restituisce True o False (es n%2 == 0)
+
+come leggere json in python? importare una libreria della standard library che è proprio json
+
+https://web.postman.com/
+ci permette di testare le chiamati a.p.i (api)
+con send rest testo formattato

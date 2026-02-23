@@ -1,0 +1,12 @@
+FUNZIONI E METODI UTILI:
+
+def funzione(parametro): parametro = #variabile generica fase di definizione
+
+funzione(argomento) #il valore effetivo
+
+import random
+numero_segreto = random.randint(a, b)
+
+TRUCCHI UTILI:
+\n -> mi permette di separare la riga quando avvio il codice
+end=" " -> mi permette di scrivere gli oggetti tutti su una unica riga quando utilizzo print 

@@ -13,3 +13,4 @@ else:
     print("hai perso, mi spiace!")
 
 can only concatenate str (not "int") to str
+
